@@ -25,13 +25,11 @@ Instruction for use:
       -u FortiEMS admin user
       -p FortiEMS password
       -a actions available: getemsinfo | getuserinfo | quarantine | unquarantine | outofdate
-
 ```
 . Optional arguments:
 ```
       -e IP address of endpoint. Needed for actions regarding endpoint.
       -o Options for outofdate search. Options avaiable: Antivirus | Sandbox | Firewall | Webfilter | Vulnerability | VulnerabilityCritHigh | AntiVirusUnprotected | SoftwareOOD | SignatureOOD | OOS | Quarantined
-
 ```
 
 ## Examples
